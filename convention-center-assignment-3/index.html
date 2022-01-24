@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- bootstrap css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- font awesome cdn  -->
+    <script src="https://kit.fontawesome.com/b3245ad851.js" crossorigin="anonymous"></script>
+
+    <!-- custom css  -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Convention Center</title>
+  </head>
+  <body>
+    <header>
+      <menu>
+
+        <!-- navbar section  -->
+        
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white ">
+                <div class="container">
+                  <a class="navbar-brand " href="#"><span class="fs-5">Spectra Convention Center</span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto me-4 mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About us</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#packege">Packege</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Subscribe</a>
+                      </li>
+                    
+                  </div>
+                </div>
+              </nav>
+        
+      </menu>
+      <!-- image slider section  -->
+      <div id="home" class="container-fluid mt-5 mb-5 p-0 ">
+        <div id="carouselExampleCaptions" class="carousel  slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner ">
+              <div class="carousel-item active">
+                <img src="images/banner.png" class="d-block slider w-100" alt="...">
+                <div class="carousel-caption mt-md-4  d-md-block">
+                    <h1 class="mb-5 display-4 fw-bold">The perfect venue for your
+                        next event</h1>
+                      <p>We ready for: •	Wedding /Reception/Gaye Holud •	Marriage Anniversary •	Birthday party •	Sales Conference •	Dealer Confere</p>
+                      <a href="https://www.facebook.com">
+                        <button class="btn px-4 mb-4 border-2 border-primary bg-light">Book Now</button>
+                      </a>
+                    
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner-2.jpg" class="d-block slider w-100" alt="...">
+                <div class="carousel-caption mt-md-4  d-md-block">
+                  <h1 class="mb-5 display-3 fw-bold">5000 Square Feet Space 400 Guests Capacity</h1>
+                  <p>We ready for: •	Wedding /Reception/Gaye Holud •	Marriage Anniversary •	Birthday party •	Sales Conference •	Dealer Confere</p>
+                  <a href="https://www.youtube.com">
+                    <button class="btn px-4 mb-4 border-2 border-primary bg-light">Book Now</button>
+                  </a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner-3.jpg" class="d-block slider w-100" alt="...">
+                <div class="carousel-caption mt-md-4  d-md-block">
+                  <h1 class="mb-5 display-3 fw-bold">7000 Square Feet Space 500 Guests Capacity</h1>
+                  <p>We ready for: •	Wedding /Reception/Gaye Holud •	Marriage Anniversary •	Birthday party •	Sales Conference •	Dealer Confere</p>
+                  <a href="https://www.getbootstrap.com">
+                    <button class="btn px-4 mb-4 border-2 border-primary bg-light">Book Now</button>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+      </div>
+    </header>
+    <main class="ms-sm-3">
+
+      <!-- about section  -->
+      <div class="container ">
+        <!-- toast massage  -->
+        <div class="toast show position-absolute end-0 top-80 align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
+          <div class="d-flex">
+            <div class="toast-body">
+            <img src="icons/Vector.svg" width="24" height="24" class="me-2" alt=""> 20% off on next Booking
+           </div>
+            <button type="button" class="btn-close me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+          </div>
+        </div>
+       <section id="about" class="my-5">
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 ">
+            <img src="images/wedding.png" class="rounded me-3  " style="width: 99%;" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="fs-1 fw-bold mb-3">Every moment is precious</h2>
+            <p> <b>Spectra Convention center</b> is the  Country's  1st  largest luxurious Convention Center at gulshan Police Plaza in Dhaka. Lovely place and awesome decorations are looking very nice. Our facility and capacity.</p>
+            <button class="btn btn-primary px-5">Explore our Album</button>
+          </div>
+        </div>
+       </section>
+        <!-- about section end  -->
+        <!-- packege section start  -->
+        <section id="packege" class="my-5">
+          <h2 class=" my-5 fw-bold text-center">Our package</h2>
+          <div class="row ">
+            <div class="col-lg-3 rounded py-5  col-md-6 mx-auto col-12">
+              <h1 class="fs-1 fw-bold my-4  ">$300</h1>
+              <h1 class="fs-2 text-secondary ">Business Fair</h1>
+              <p class="">For most businesses event 
+                like book fair, craft fair.</p>
+                <ul class="list-unstyled">
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>limited space access</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Secuirty facility</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>event support</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Decoration design</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Per day bill</li>
+                </ul>
+                <button class="btn my-4 btn-light px-5 rounded-pill py-2 text-primary bg-opacity-10">Choose Plan</button>
+            </div>
+            <div class="col-lg-3 rounded py-5  col-md-6 mx-auto col-12">
+              <h1 class="fs-1 fw-bold my-4  ">$500</h1>
+              <h1 class="fs-2 text-secondary ">wedding basic</h1>
+              <p class="">For weddings with basic plan
+                and limited item.</p>
+                <ul class="list-unstyled">
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Full space access</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Food arrangment</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Management support</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Decoration design</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>billed as shit</li>
+                </ul>
+                <button class="btn my-4 btn-light px-5 rounded-pill py-2 text-primary bg-opacity-10">Choose Plan</button>
+            </div>
+            <div class="col-lg-3 border-radius shadow-lg position-relative  bg-primary py-4  col-md-6 col-12">
+              <h1 class="fs-1 fw-bold my-4 text-white ms-4 ">$800</h1>
+              <h1 class="fs-2 text-white ms-4 ">Wedding plus</h1>
+              <p class="text-white-50 ms-4">For most weddings with premium plans.</p>
+                <ul class="list-unstyled ms-4">
+                  <li class="my-2 text-white"><i class=" text-white rounded-circle me-2 bg-opacity-10 bg-white  p-1 fas fa-check"></i>full space access</li>
+                  <li class="my-2 text-white"><i class=" text-white rounded-circle me-2 bg-opacity-10 bg-white  p-1 fas fa-check"></i>Dedicated Team</li>
+                  <li class="my-2 text-white"><i class=" text-white rounded-circle me-2 bg-opacity-10 bg-white  p-1 fas fa-check"></i>Buffet Food</li>
+                  <li class="my-2 text-white"><i class=" text-white rounded-circle me-2 bg-opacity-10 bg-white  p-1 fas fa-check"></i> Premium Decoration </li>
+                  <li class="my-2 text-white"><i class=" text-white rounded-circle me-2 bg-opacity-10 bg-white  p-1 fas fa-check"></i>Pay as plan</li>
+                </ul>
+                <span class=" translate-middle bg-danger py-1 shadow-lg px-3 rounded-pill top-0 end-0 text-white position-absolute ">Popular</span>
+                <button class="btn ms-4 mt-4 btn-light px-5 rounded-pill py-2 text-primary bg-opacity-10">Choose Plan</button>
+            </div>
+            <div class="col-lg-3 rounded py-5  col-md-6 mx-auto col-12">
+              <h1 class="fs-1 fw-bold my-4  ">$300</h1>
+              <h1 class="fs-2 text-secondary ">Business Fair</h1>
+              <p class="">For most businesses event 
+                like book fair, craft fair.</p>
+                <ul class="list-unstyled">
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>limited space access</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Secuirty facility</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>event support</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Decoration design</li>
+                  <li class="my-2"><i class=" text-primary rounded-circle me-2 bg-opacity-10 bg-primary p-1 fas fa-check"></i>Per day bill</li>
+                </ul>
+                <button class="btn my-4 btn-light px-5 rounded-pill py-2 text-primary bg-opacity-10">Choose Plan</button>
+            </div>
+          </div>
+        </section>
+        <!-- client feedback  -->
+        <h2 class="my-5 fw-bold text-center">Client Feedback</h2>
+        <div class="container me-5">
+          <div
+            id="carouselExampleSlidesOnly"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <figure class="text-end">
+                  <blockquote class="blockquote">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Founder of Sy accesories<cite title="Source Title"><strong>Yeasir Arafat</strong></cite>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="text-end">
+                  <blockquote class="blockquote">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Founder of Spectra convention <cite title="Source Title"><strong>Regina Miles</strong></cite>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="carousel-item">
+                <figure class="text-end">
+                  <blockquote class="blockquote">
+                    <p>Slate helps you see how 
+                      many more days you need 
+                      to work to reach your financial 
+                      goal for the month and year.</p>
+                  </blockquote>
+                  <figcaption class="blockquote-footer">
+                    Banker <cite title="Source Title"><strong>Jone Drake</strong></cite>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- freequently asked question  -->
+
+        <h2 class=" my-5 fw-bold text-center">Frequently Asked Question</h2>
+        <div class="row d-flex align-items-center">
+          <div class="col-lg-6 my-5 ">
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    What's the difference between event design and event planning? 
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                  <div class="accordion-body">
+                    Event design and event planning work hand in hand to deliver a successful event.Events by Knight offer tailor made events. This means we incorporate both event design and event planning to create that perfect event.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                   How early do we need to start planning an event?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse " aria-labelledby="panelsStayOpen-headingTwo">
+                  <div class="accordion-body">
+                    There is no need to think too much about any work. It is better to do that work only when it feels like free time. There is no need to be late for any kind of event. It's better to throw. And we are here for you all the time.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    What is your refund and cancelation policy?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    If we have to cancel a program, we do it very easily. We believe that anyone can have any kind of problem at any time. Basically we take the money first and in that case we deduct only 5% and return the rest within 1 week. In this case, who are we? We need to be notified at least 2 days in advance.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item mb-4 border-top-1 rounded">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThre" aria-expanded="false" aria-controls="panelsStayOpen-collapseThre">
+                   How do you keep budgets on track?
+                  </button>
+                </h2>
+                <div id="panelsStayOpen-collapseThre" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                  <div class="accordion-body">
+                    We have different types of packages here so you can buy the package of your choice. We try our best to give the best service to all our customers. This is why there is no tension for you if you take any of our packages. We package based on how many people we serve. So you can take any package from us without any fear.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 my-5">
+            <img src="images/people.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="bg-dark d-flex align-items-center" style="height: 280px;">
+      <div class="container">
+        <div class="d-flex align-items-center justify-content-lg-between flex-lg-row flex-column text-white h-75">
+         <p class="text-center order-2 order-lg-0 mt-3">&copy; 2022 Spectra Convention Center | All rights reserved</p>
+         <div class="d-flex flex-column">
+           <h4 class="m-0">Get the App</h4>
+           <a href="https://apps.apple.com/us/app/compass/id1067456176" target="_blank"><img class="my-4" width="135px" src="icons/apple.png" alt=""></a>
+           <a href="https://play.google.com/store/apps/details?id=com.enki.insights" target="_blank"><img width="135px" src="icons/android.png" alt=""></a>
+         </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
